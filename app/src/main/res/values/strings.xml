@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Notifications_App_HW_CHONG_PILIN</string>
+    <string name="title_activity_display">DisplayActivity</string>
+
+    <string-array name="itemNameArray">
+        <item>iPhone XS Max</item>
+        <item>Rolex Watch</item>
+        <item>Cartier Shades</item>
+        <item>Balenciaga Sneakers</item>
+        <item>Bape Hoodie</item>
+        <item>Microblading</item>
+        <item>Veneers</item>
+        <item>Jordan 11\'s</item>
+        <item>Ferret</item>
+        <item>Camo CanadaGoose</item>
+        <item>Apple Watch</item>
+        <item>AMG S65Coupe</item>
+        <item>iPad Pro</item>
+        <item>LV iWatch Band</item>
+        <item>Mink Lashes</item>
+        <item>Gold Platform Sneakers</item>
+        <item>LV Handbag</item>
+        <item>Senheiser HD820</item>
+        <item>Ball Python Snake</item>
+        <item>Blue CanadaGoose</item>
+    </string-array>
+
+    <string-array name="itemDescriptArray">
+        <item>6.5" display, Unlocked, 64GB iPhone with AppleCare+; plus AirPods, Wireless Charging Pad, USB-C to Lightning cable &amp; SkinIt Custom Waterproof Case.</item>
+        <item>Designed to stun, this amazing creation from TraxNYC\'s 18K Everose Gold Diamond Rolex Watch Collection will leave you breathless with its splendor and elegance. Features 19.35 ct of Round cut gorgeous diamonds.</item>
+        <item>Santos de Cartier sunglasses in brushed champagne golden-finish metal, aviator shape, brown leather nose, graded brown lenses, tortoiseshell temple tips, temples signed Cartier.</item>
+        <item>THE CHUNKY SNEAKER; Get your kicks in the sole that stormed the runways.</item>
+        <item> Color camo shark hoodie down jacket MENS.</item>
+        <item>The "No makeup, makeup!" Natural looking, sleek, elegant brows tattooed to emulate hairs with semi-permanent ink for long-lasting results.</item>
+        <item>Wafer-thin, custom-made shells designed to cover the front surface of teeth. These shells are bonded to the front of the teeth changing their color, shape, size, or length to impeccably improve appearance.</item>
+        <item>Jordan 11 Retro \'Cap and Gown\'s customized by @_AboveTheMoney</item>
+        <item>With mischievous eyes and sweet faces, ferrets are undeniably adorable. They are a small size and can provide your family with a sweet long-term pet. They enjoy challenging puzzles and games. Provide them with puzzle-based toys or games. Every ferret is unique and has its own personality. Some are independent, some are very cuddly, but each is an individual!</item>
+        <item>The Canmore Parka is cut for a long, streamlined length in our trusted Arctic Tech® fabric. Its reinforced elbow patches and four exterior pockets are a nod to the timeless military-inspired field jacket silhouette.</item>
+        <item>Hermès; 44mm display, thinner frame, 64-bit dual-core S4 processor (Up to 2x faster than S3), Second-generation optical heart sensor, louder speaker, watchOS 5; Hermès Leather Band &amp; Orange Sport Band.</item>
+        <item>Handcrafted Mercedes-AMG 6.0L V12 biturbo engine, push Start-Stop, 7 Speed transmission, AMG Active Sport build with carbon fiber, High Performance braking system Electromechanical power steering, headlamps with Swarovski crystal accents, 20" AMG forged black wheels.</item>
+        <item>12.9" display, Wifi + Cellular, 256GB iPad Pro with AppleCare+; plus Apple Pencil (2nd gen) &amp; Smart Keyboard Folio Case.</item>
+        <item>On Etsy @ZTaccessory; Apple Watch Series:1 - Series:4 Compatible, authentic LV leather handmade Apple Watch band.</item>
+        <item>Mink eyelash extension; Around 350 – 400 lashes per eye , around 2.5 hours, Anywhere from 3–5 synthetic lashes are applied to each individual lash to create a fluffier and fuller, sultry look.</item>
+        <item>Found at Dolls Kill; Y.R.U. Fairest Of Them All Qozmo Platform Sneakers cuz you’re the prettiest princess. These metallic rose gold sneakers have lace-up closures and platform soles as thiccc as you! 4" heels, 3" platforms.</item>
+        <item>The black Montaigne BB handbag is a compact alternative for businesswomen who don’t wish to carry too much. And of course it looks beautiful in Monogram Empreinte leather.</item>
+        <item>Over-the-ear, closed-back design for spacious sound with tight, solid bass, a high-performance headphone amp will properly power these headphones for optimum sound, acoustic absorber technology to reduce harsh frequency extremes for smoother highs.</item>
+        <item>The ball python is quite simply the most popular pet python in the world. Ball pythons make for a quality pet for the first-time keeper and experienced herpetoculturists alike. With proper care, ball pythons can live 30 years or more. They are generally shy and will spend much of their time hiding.</item>
+        <item>Developed as a nod to post-war bush pilots in Canada\'s North, the Chilliwack Bomber provides the durability, warmth, and mobility that these pilots needed when working on Arctic runways. An enduringly popular and iconic style, this is one of Canada Goose\'s most beloved jackets.</item>
+    </string-array>
+
+    <string-array name="itemPriceArray">
+        <item>1,825</item>
+        <item>32,000</item>
+        <item>1,100</item>
+        <item>950</item>
+        <item>750</item>
+        <item>700</item>
+        <item>100,000</item>
+        <item>500</item>
+        <item>350</item>
+        <item>850</item>
+        <item>1,400</item>
+        <item>260,000</item>
+        <item>1,400</item>
+        <item>125</item>
+        <item>250</item>
+        <item>120</item>
+        <item>2,900</item>
+        <item>2,400</item>
+        <item>250</item>
+        <item>875</item>
+    </string-array>
+
+
+</resources>
