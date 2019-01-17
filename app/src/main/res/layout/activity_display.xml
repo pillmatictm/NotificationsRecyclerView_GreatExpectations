@@ -12,9 +12,8 @@
     <ImageView
         android:id="@+id/display_bigImage"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/canadagoose_blue" />
+        android:layout_height="425dp"
+        android:scaleType="fitXY" />
 
     <TextView
         android:id="@+id/item_title"
@@ -25,7 +24,6 @@
         android:layout_marginTop="4dp"
         android:textAlignment="center"
         android:fontFamily="serif"
-        android:text="Canada Goose"
         android:textColor="#000"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -36,7 +34,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="14dp"
-        android:text="Heavy-weight blue bomber jacket with all the bells and whistles guarenteed to keep you warm"
         android:textSize="14sp"/>
 
     <TextView
@@ -45,7 +42,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginStart="8dp"
-        android:text="Approx: $925"
         android:textSize="18sp"
         android:textStyle="bold"/>
 
@@ -57,7 +53,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="10dp"
-        android:text="Notify"
+        android:text="Schedule"
         android:textSize="16sp"
         android:textStyle="bold" />
 
