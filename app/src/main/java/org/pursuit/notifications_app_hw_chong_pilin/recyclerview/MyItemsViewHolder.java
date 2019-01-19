@@ -16,11 +16,15 @@ public class MyItemsViewHolder extends RecyclerView.ViewHolder implements View.O
    TextView itemTitle;
    int[] images;
    String[] itemNames;
+   String[] itemDescripts;
+   String[] itemPrices;
 
-    public MyItemsViewHolder(@NonNull View itemView, int[] images, String[] itemNames) {
+    public MyItemsViewHolder(@NonNull View itemView, int[] images, String[] itemNames, String[] itemDescripts, String[] itemPrices) {
         super(itemView);
         this.images = images;
         this.itemNames = itemNames;
+        this.itemDescripts = itemDescripts;
+        this.itemPrices =  itemPrices;
 
         imageView = itemView.findViewById(R.id.image_View);
         itemTitle = itemView.findViewById(R.id.title_textView);
@@ -34,8 +38,9 @@ public class MyItemsViewHolder extends RecyclerView.ViewHolder implements View.O
         Intent intent = new Intent(v.getContext(), DisplayActivity.class);
         intent.putExtra("image_id", images[getAdapterPosition()]);
         intent.putExtra("item_titles", itemNames[getAdapterPosition()]);
+        intent.putExtra("item_descripts" , itemDescripts[getAdapterPosition()]);
+        intent.putExtra("item_prices", itemPrices[getAdapterPosition()]);
         v.getContext().startActivity(intent);
-
-
     }
+
 }

@@ -6,25 +6,27 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
-import org.pursuit.notifications_app_hw_chong_pilin.DisplayActivity;
 import org.pursuit.notifications_app_hw_chong_pilin.R;
 
 public class MyItemsAdapter extends RecyclerView.Adapter<MyItemsViewHolder> {
     private int[] images;
     private String[] itemNameArray;
+    private String[] itemDescriptArray;
+    private String[] itemPriceArray;
 
-    public MyItemsAdapter(int[] images, String[] itemNameArray) {
+    public MyItemsAdapter(int[] images, String[] itemNameArray, String[] itemDescriptArray, String[] itemPriceArray) {
         this.images = images;
         this.itemNameArray = itemNameArray;
+        this.itemDescriptArray = itemDescriptArray;
+        this.itemPriceArray = itemPriceArray;
     }
 
     @NonNull
     @Override
     public MyItemsViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.recyclerview_viewholder, viewGroup, false);
-        return new MyItemsViewHolder(view, images, itemNameArray);
+        return new MyItemsViewHolder(view, images, itemNameArray, itemDescriptArray, itemPriceArray);
     }
 
     @Override

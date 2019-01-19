@@ -22,10 +22,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String[] itemName = getResources().getStringArray(R.array.itemNameArray);
+        String[] itemDescription = getResources().getStringArray(R.array.itemDescriptArray);
+        String[] itemPrice = getResources().getStringArray(R.array.itemPriceArray);
 
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 3));
         recyclerView.setHasFixedSize(true);
-        recyclerView.setAdapter(new MyItemsAdapter(images, itemName));
+        recyclerView.setAdapter(new MyItemsAdapter(images, itemName, itemDescription, itemPrice));
     }
 }
